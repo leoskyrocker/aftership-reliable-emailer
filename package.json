@@ -2,8 +2,10 @@
   "name": "@leoskyrocker/aftership-reliable-emailer",
   "version": "1.0.0",
   "description": "A Email Service API that reliably sends email by picking available email services.",
-  "main": "index.js",
+  "main": "./distribution/index.js",
   "scripts": {
+    "build": "babel src --presets babel-preset-env --out-dir distribution",
+    "prepare": "npm run build",
     "test": "npm test"
   },
   "repository": {
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/leoskyrocker/aftership-email-api-challenge/issues"
   },
-  "homepage": "https://github.com/leoskyrocker/aftership-email-api-challenge#readme"
+  "homepage": "https://github.com/leoskyrocker/aftership-email-api-challenge#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
