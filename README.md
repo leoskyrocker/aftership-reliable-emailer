@@ -1,5 +1,6 @@
 Aftership Reliable Emailer
 =========
+[![Build Status](https://travis-ci.com/leoskyrocker/aftership-reliable-emailer.svg?token=yX2wHppsYTF4kzifxutq&branch=master)](https://travis-ci.com/leoskyrocker/aftership-reliable-emailer)
 
 A module that allows emails to be sent reliably by picking available services.
 
